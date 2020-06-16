@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: Cookie Notice Lite (Deutsch)
-Description: Displays a German cookie notice.
-GitHub Plugin URI: mtoensing/cookie-notice-lite
-Version:     0.1
-Author:      MarcDK
-Author URI:  https://marc.tv
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Plugin Name: Cookie Notice Lite (Deutsch)
+* Description: Displays a German cookie notice.
+* GitHub Plugin URI: mtoensing/cookie-notice-lite
+* Version:     1.0
+* Author:      MarcDK
+* Author URI:  https://marc.tv
+* License: GPL v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 add_action('wp_footer', 'add_cookie_notice');
 
