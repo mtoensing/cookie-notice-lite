@@ -1,4 +1,4 @@
-=== Lightweight Cookie Notice ===
+=== Cookie Notice Lite (Deutsch) ===
 Contributors: MarcDK
 Tags: marctv, cookie, notice, consent
 Requires at least: 5.0
