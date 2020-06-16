@@ -6,7 +6,7 @@ GitHub Plugin URI: mtoensing/cookie-notice-lite
 Version:     0.1
 Author:      MarcDK
 Author URI:  https://marc.tv
-icense: GPLv2 or later
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 add_action('wp_footer', 'add_cookie_notice');
