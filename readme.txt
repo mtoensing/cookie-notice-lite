@@ -3,7 +3,7 @@ Contributors: MarcDK
 Tags: marctv, cookie, notice, consent
 Requires at least: 5.0
 Tested up to: 5.0
-Stable tag: 1.0
+Stable tag: 1.5
 GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
