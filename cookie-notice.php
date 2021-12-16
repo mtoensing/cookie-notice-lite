@@ -15,7 +15,7 @@ function add_cookie_notice(){
 	$url = get_privacy_policy_url();
 	$link = '';
 	if (get_privacy_policy_url() != ''){
-		$link = '<a rel="nofollow" href="' . $url . '">Mehr Informationen</a>.';
+		$link = '<a style="font-size: small" rel="nofollow" href="' . $url . '">Mehr Informationen</a>';
 	}
 	echo '<p id="cookie-notice">Diese Webseite verwendet Cookies. In dem Du hier fortfährst, stimmst Du der Nutzung der Cookies zu. ' . $link. '<br><button onclick="acceptCookie();">Hab\'s verstanden</button></p>';
 	echo '<script>function acceptCookie(){document.cookie="cookieaccepted=1; expires=Thu, 18 Dec 2030 12:00:00 UTC; path=/",document.getElementById("cookie-notice").style.visibility="hidden"}document.cookie.indexOf("cookieaccepted")<0&&(document.getElementById("cookie-notice").style.visibility="visible");</script>';
