@@ -3,7 +3,7 @@
 * Plugin Name: Cookie Notice Lite (Deutsch)
 * Description: Displays a German cookie notice.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.6
+* Version:     1.7
 * Author:      MarcDK
 * Author URI:  https://marc.tv
 * License: GPL v2 or later
