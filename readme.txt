@@ -3,14 +3,16 @@ Contributors: MarcDK
 Tags: marctv, cookie, notice, consent
 Requires at least: 5.0
 Tested up to: 6.2
-Stable tag: 1.8.7
+Stable tag: 1.8.8
 GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Displays a cookie notice with less than 2 KB. Idea and code from https://wpspeedmatters.com/fastest-cookie-consent-wordpress-plugin/
+Displays a compact cookie notice (<2 KB) with customizable text in WordPress settings.
+
+Idea and code from [wpspeedmatters.com](https://wpspeedmatters.com/fastest-cookie-consent-wordpress-plugin/)
 
 == Installation ==
 
@@ -26,3 +28,8 @@ Displays a cookie notice with less than 2 KB. Idea and code from https://wpspeed
 1.6 Fix: Better contrast
 
 1.0 Initial version
+
+== Screenshots ==
+1. Notice English
+1. Notice German
+2. Backend
