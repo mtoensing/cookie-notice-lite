@@ -3,7 +3,7 @@
 * Plugin Name: Cookie Notice Lite
 * Description: Displays a cookie notice with customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.8.2
+* Version:     1.8.3
 * Author:      MarcDK
 * Author URI:  https://marc.tv
 * Text Domain: cookie-notice-lite
@@ -22,11 +22,11 @@ function add_cookie_notice()
     if (get_privacy_policy_url() != '') {
         $link = '<a style="font-size: small; text-align: right" rel="nofollow" href="' . $url . '">' . __('More information', 'cookie-notice-lite') . '</a>';
     }
-	$text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
-    $notice_text = get_option('cookie_notice_lite_text', $text);
+
+    $notice_text = get_option('cookie_notice_lite_bannertext', '');
 
     if (empty($notice_text)) {
-        $notice_text = $text;
+		$notice_text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
     }
 
     echo '<p id="cookie-notice">' . esc_html($notice_text) . ' <br><button onclick="acceptCookie();"> ' . __('Okay', 'cookie_notice-lite') . '</button> ' . $link. ' </p>';
@@ -67,10 +67,10 @@ function cookie_notice_lite_settings_init()
 function cookie_notice_lite_text_callback()
 {
 
-    $text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
-    $notice_text = get_option('cookie_notice_lite_text', $text);
+    $notice_text = get_option('cookie_notice_lite_bannertext', '');
 
     if (empty($notice_text)) {
+		$text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
         $notice_text = $text;
     }
     ?>
