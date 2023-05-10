@@ -3,7 +3,7 @@ Contributors: MarcDK
 Tags: cookie, notice, consent, DSGVO
 Requires at least: 5.0
 Tested up to: 6.2
-Stable tag: 1.9
+Stable tag: 1.9.1
 GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -25,5 +25,5 @@ Idea and code from [wpspeedmatters.com](https://wpspeedmatters.com/fastest-cooki
 
 == Screenshots ==
 1. Notice English
-1. Notice German
 2. Backend
+3. Notice German
