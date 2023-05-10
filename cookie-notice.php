@@ -1,9 +1,9 @@
 <?php
 /*
-* Plugin Name: Cookie Notice Lite
-* Description: Displays a cookie notice with customizable text.
+* Plugin Name: Cookie Notice lite
+* Description: Displays a cookie notice with less than 2 KB and customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.8.6
+* Version:     1.8.7
 * Author:      MarcDK
 * Author URI:  https://marc.tv
 * Text Domain: cookie-notice-lite
