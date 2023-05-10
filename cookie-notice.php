@@ -19,7 +19,7 @@ function add_cookie_notice()
     $url = get_privacy_policy_url();
     $link = '';
     if (get_privacy_policy_url() != '') {
-        $link = '<a style="font-size: small; text-align: right" rel="nofollow" href="' . $url . '">' . __('More information','cookie-notice-lite') . '</a>';
+        $link = '<a style="font-size: small; text-align: right" rel="nofollow" href="' . $url . '">' . __('More information', 'cookie-notice-lite') . '</a>';
     }
     $notice_text = get_option('cookie_notice_lite_text', 'Diese Webseite verwendet Cookies. In dem Du hier fortfährst, stimmst Du der Nutzung der Cookies zu.');
 
@@ -60,7 +60,13 @@ function cookie_notice_lite_settings_init()
 
 function cookie_notice_lite_text_callback()
 {
-    $notice_text = get_option('cookie_notice_lite_text', __('This website uses cookies. By continuing here, you agree to the use of cookies.','cookie_notice-lite') );
+
+    $text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
+    $notice_text = get_option('cookie_notice_lite_text', $text);
+
+    if (empty($notice_text)) {
+        $notice_text = $text;
+    }
     ?>
 <textarea id="cookie_notice_lite_text" name="cookie_notice_lite_text" rows="5" cols="50"><?php echo esc_textarea($notice_text); ?></textarea>
 <p class="description">Enter the text you would like to display for the cookie notice.</p>
