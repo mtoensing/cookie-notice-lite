@@ -3,9 +3,10 @@
 * Plugin Name: Cookie Notice Lite
 * Description: Displays a cookie notice with customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.8
+* Version:     1.8.1
 * Author:      MarcDK
 * Author URI:  https://marc.tv
+* Text Domain: cookie-notice-lite
 * License: GPL v2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
