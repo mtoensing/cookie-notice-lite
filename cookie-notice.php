@@ -3,7 +3,7 @@
 * Plugin Name: Cookie Notice lite
 * Description: Displays a cookie notice with less than 2 KB and customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.8.9
+* Version:     1.9
 * Author:      Marc Tönsing
 * Author URI:  https://marc.tv
 * Text Domain: cookie-notice-lite
