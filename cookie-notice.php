@@ -3,7 +3,7 @@
 * Plugin Name: Cookie Notice Lite
 * Description: Displays a cookie notice with customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.8.5
+* Version:     1.8.6
 * Author:      MarcDK
 * Author URI:  https://marc.tv
 * Text Domain: cookie-notice-lite
@@ -26,7 +26,7 @@ function add_cookie_notice()
     $notice_text = get_option('cookie_notice_lite_text', '');
 
     if (empty($notice_text)) {
-		$notice_text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie-notice-lite');
+        $notice_text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie-notice-lite');
     }
 
     echo '<p id="cookie-notice">' . esc_html($notice_text) . ' <br><button onclick="acceptCookie();"> ' . __('Okay', 'cookie-notice-lite') . '</button> ' . $link. ' </p>';
@@ -67,17 +67,15 @@ function cookie_notice_lite_settings_init()
 function cookie_notice_lite_text_callback()
 {
 
-    $notice_text = get_option('cookie_notice_lite_text','');
+    $notice_text = get_option('cookie_notice_lite_text', '');
 
     if (empty($notice_text)) {
-		$text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie-notice-lite');
+        $text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie-notice-lite');
         $notice_text = $text;
     }
     ?>
 <textarea id="cookie_notice_lite_text" name="cookie_notice_lite_text" rows="5" cols="50"><?php echo esc_textarea($notice_text); ?></textarea>
 <p class="description"><?php __('Enter the text you would like to display for the cookie notice', 'cookie-notice-lite'); ?></p>
-
-
 <?php
 }
 ?>
