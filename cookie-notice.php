@@ -3,7 +3,7 @@
 * Plugin Name: Cookie Notice Lite
 * Description: Displays a cookie notice with customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
-* Version:     1.8.1
+* Version:     1.8.2
 * Author:      MarcDK
 * Author URI:  https://marc.tv
 * Text Domain: cookie-notice-lite
@@ -22,9 +22,8 @@ function add_cookie_notice()
     if (get_privacy_policy_url() != '') {
         $link = '<a style="font-size: small; text-align: right" rel="nofollow" href="' . $url . '">' . __('More information', 'cookie-notice-lite') . '</a>';
     }
-    $notice_text = get_option('cookie_notice_lite_text');
-
-    $text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
+	$text = __('This website uses cookies. By continuing here, you agree to the use of cookies.', 'cookie_notice-lite');
+    $notice_text = get_option('cookie_notice_lite_text', $text);
 
     if (empty($notice_text)) {
         $notice_text = $text;
