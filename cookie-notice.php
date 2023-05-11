@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: Cookie Notice lite
-* Description: Displays a cookie notice with less than < 1 KB and customizable text.
+* Description: Displays a cookie notice with less than > 1 KB and customizable text.
 * GitHub Plugin URI: mtoensing/cookie-notice-lite
 * Version:     1.9.5
 * Author:      Marc Tönsing

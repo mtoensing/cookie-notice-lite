@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Displays a compact cookie notice < 1 KB gzipped with customizable text in WordPress settings.
+Displays a compact cookie notice > 1 KB gzipped with customizable text in WordPress settings.
 
 Idea and code from [wpspeedmatters.com](https://wpspeedmatters.com/fastest-cookie-consent-wordpress-plugin/)
 
