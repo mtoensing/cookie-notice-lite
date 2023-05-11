@@ -3,14 +3,14 @@ Contributors: MarcDK
 Tags: cookie, notice, consent, DSGVO
 Requires at least: 5.0
 Tested up to: 6.2
-Stable tag: 1.9.7
+Stable tag: 1.9.8
 GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Displays a compact cookie notice > 1 KB gzipped with customizable text in WordPress settings.
+Displays a compact cookie notice less than 1 KB (gzipped) with customizable text in WordPress settings.
 
 Idea and code from [wpspeedmatters.com](https://wpspeedmatters.com/fastest-cookie-consent-wordpress-plugin/)
 
