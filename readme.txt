@@ -8,6 +8,8 @@ GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Lightweight cookie notice banner under 1 KB with customizable text.
+
 == Description ==
 
 Displays a compact cookie notice less than 1 KB (gzipped) with customizable text in WordPress settings.
