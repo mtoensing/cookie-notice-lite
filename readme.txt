@@ -3,7 +3,7 @@ Contributors: MarcDK
 Tags: cookie, notice, consent, DSGVO
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.9.10
+Stable tag: 1.9.11
 GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,6 +22,9 @@ Idea and code from [wpspeedmatters.com](https://wpspeedmatters.com/fastest-cooki
 * Activate it
 
 == Changelog ==
+
+= 1.9.11 =
+* Docs: add required short description for WordPress.org importer.
 
 = 1.9.10 =
 * Compatibility with WordPress 6.9
