@@ -2,7 +2,7 @@
 Contributors: MarcDK
 Tags: cookie, notice, consent, DSGVO
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: 1.9.12
 GitHub Plugin URI: mtoensing/cookie-notice-lite
 License: GPLv2 or later
